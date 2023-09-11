@@ -1,2 +1,7 @@
 # Lab1
-"This first lab will have you write a very simple HTML and CSS UI for an index page and create a class GitHub Repository."
+
+## Project Description
+___
+This lab will have us create a landing page to a short personal biography about myself and a basic description of this
+class. We will touch on our web development experience and showcase some of it here during this project.
+
