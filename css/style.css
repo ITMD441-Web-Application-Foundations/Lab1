@@ -7,3 +7,18 @@
     padding: 0;
     background-color: #262626;
 }
+
+#personalname_logo {
+    max-width: 30%;
+    max-height: 30%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    font-family: Mooli, sans-serif, Monospace;
+    font-size: 100%;
+}
