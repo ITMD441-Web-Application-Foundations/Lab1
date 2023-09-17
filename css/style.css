@@ -1,12 +1,14 @@
 /* Font import from fonts.google.com  */
 @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 
-* {
+* {  /* Global styles */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: #262626;
 }
+
+/* ================ TOP NAV AND LOGO ================ */
 
 #personalname_logo {
     max-width: 75%;
@@ -16,7 +18,7 @@
 
 header {
     display: flex;
-    padding: 30px 10%;
+    padding: 50px 10%;
 }
 
 li, a {
@@ -25,15 +27,17 @@ li, a {
     font-weight: bold;
     color: white;
     text-decoration: none;
-    list-style-type: none;
+    list-style-type: none;  /* Removes dot that comes defauly w/ <li> */
 }
 
 .nav_links li {
-    display: inline-block;
+    display: inline-block;  /* Displays nav links side-by-side */
 }
 
 #onpage a {
     color: #AB3428;
-    text-decoration: underline;
     text-decoration-color: #AB3428;
+    text-decoration: underline;
 }
+
+/* ================ BODY STYLES ================ */
