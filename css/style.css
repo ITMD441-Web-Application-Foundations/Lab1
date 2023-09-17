@@ -56,6 +56,7 @@ li, a {
 
 #course_name {
     font-size: 40px;
+    text-decoration: underline;
 }
 
 .main_body a {
