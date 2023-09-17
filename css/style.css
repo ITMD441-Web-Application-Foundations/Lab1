@@ -14,11 +14,9 @@
 #personalname_logo {
     max-width: 75%;
     max-height: 75%;
-    display: flex;
 }
 
 header {
-    display: flex;
     padding: 50px 10%;
 }
 
@@ -33,9 +31,10 @@ li, a {
 
 .nav_links li {
     display: inline-block;  /* Displays nav links side-by-side */
+    padding: 5px;
 }
 
-#onpage a {
+#curr_page a {
     text-decoration: underline;
     text-decoration-color: #AB3428;
     text-decoration-thickness: 3px;
@@ -53,6 +52,10 @@ li, a {
 .main_body h1 {
     font-weight: 1000;
     font-size: 36px;
+}
+
+#course_name {
+    font-size: 40px;
 }
 
 .main_body a {
