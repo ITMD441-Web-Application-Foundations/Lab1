@@ -1,5 +1,6 @@
 /* Font import from fonts.google.com  */
 @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Mulish&display=swap');
 
 * {  /* Global styles */
     box-sizing: border-box;
@@ -35,9 +36,25 @@ li, a {
 }
 
 #onpage a {
-    color: #AB3428;
-    text-decoration-color: #AB3428;
     text-decoration: underline;
+    text-decoration-color: #AB3428;
+    text-decoration-thickness: 3px;
 }
 
 /* ================ BODY STYLES ================ */
+
+.main_body {
+    padding: 5px 10%;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.main_body h1 {
+    font-weight: 1000;
+    font-size: 36px;
+}
+
+.main_body a {
+    text-decoration: underline;
+}
