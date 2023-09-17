@@ -1,9 +1,63 @@
-@font-face {
-    font-family: MomcakeBold;
-    src: url(../assets/fonts/Momcake/MomcakeBold-WyonA.otf);
+/* Font import from fonts.google.com  */
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Mulish&display=swap');
+
+* {  /* Global styles */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
 }
 
-@font-face {
-    font-family: MomcakeThin;
-    src: url(../assets/fonts/Momcake/MomcakeThin-9Y6aZ.otf);
+/* ================ TOP NAV AND LOGO ================ */
+
+#personalname_logo {
+    max-width: 75%;
+    max-height: 75%;
+}
+
+header {
+    padding: 50px 10%;
+}
+
+li, a {
+    font-family: Mooli, sans-serif, Monospace;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;  /* Removes dot that comes defauly w/ <li> */
+}
+
+.nav_links li {
+    display: inline-block;  /* Displays nav links side-by-side */
+    padding: 5px;
+}
+
+#curr_page a {
+    text-decoration: underline;
+    text-decoration-color: #AB3428;
+    text-decoration-thickness: 3px;
+}
+
+/* ================ BODY STYLES ================ */
+
+.main_body {
+    padding: 5px 10%;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.main_body h1 {
+    font-weight: 1000;
+    font-size: 36px;
+}
+
+#course_name {
+    font-size: 40px;
+}
+
+.main_body a {
+    text-decoration: underline;
 }
