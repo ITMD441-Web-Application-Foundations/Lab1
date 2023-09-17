@@ -9,16 +9,31 @@
 }
 
 #personalname_logo {
-    max-width: 30%;
-    max-height: 30%;
+    max-width: 75%;
+    max-height: 75%;
+    display: flex;
 }
 
 header {
     display: flex;
-    align-items: center;
+    padding: 30px 10%;
 }
 
-ul {
+li, a {
     font-family: Mooli, sans-serif, Monospace;
-    font-size: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav_links li {
+    display: inline-block;
+}
+
+#onpage a {
+    color: #AB3428;
+    text-decoration: underline;
+    text-decoration-color: #AB3428;
 }
